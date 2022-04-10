@@ -1,0 +1,183 @@
+body{
+  background-color: rgb(207, 216, 216);
+}
+
+
+input[type=text] {
+  padding: 3px 2px;
+  margin: 2px 0px;
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 4px;
+  background-color: transparent;
+  position: relative;
+  box-sizing: border-box;
+}
+/* .logo img{
+  width: 30%;
+  height: 10vh;
+  border-radius: 20px;
+
+} */
+ /* .main_sec{
+width: 60%;
+ height: 121vh; 
+background: white;
+align-items: center;
+text-align: center;
+float: right;
+margin: -2px 191px;
+border-style: none;
+border-radius: 10px;
+} */
+
+
+
+  .main_Headign{
+
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: -30px;
+    color: blue;
+  }
+  .main_sec{
+    width: 35%;
+    background: white;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+    margin: 2px 289px;}
+  /* .........................................main_sec
+   */
+
+
+   .dateof_birth {
+    width: 35%;
+    font-size: 10px;
+    /* background: beige; */
+    height: 2vh;
+}
+.birthdate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.birthdate select {
+  width: 81px;
+    border-radius: 3px;
+    color: #1c1e21;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    height: 22px;
+    margin: 8px;
+    line-height: 12px;
+}
+
+
+.radio{ float:right; align-items: center;}
+  
+.birthdate select option{
+  width: 15px;
+
+}
+/* color: #606770; */
+
+.last{
+  padding-left: 22px;
+}
+             /* .........................gender side................. */
+
+.link{border: 1px solid;
+  border: 1px solid;
+ text-align: left;
+  border-radius: 4px;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  align-items: left;
+  font-weight: normal;
+  height: 35px;
+  line-height: -30px;
+  height: 5vh;
+  padding: 3px;
+  margin: 4px;
+  width: 109px;
+  
+}
+  /* p.gender {
+    padding: 0px 35px;
+    width: 0px;
+    height: 0vh;
+} */
+/* .and{
+  padding:17px;
+} */
+.discreption p{
+  font-size: 10px;
+}
+
+
+/* ...........................bbtn ssitee */
+.btn{
+  width: 33%;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 9vh;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: chartreuse;
+
+}
+.accout{
+  font-size: 17px;
+  line-height: 40px;
+    font-family: ui-monospace;
+    
+
+}
+/* .........................responsive site ............
+ */
+
+
+
+
+
+
+  @media screen and (max-width: 770px) {
+  
+    .birthdate select {
+      width: 3rem;
+  }
+
+  h1 {
+    padding-right: 47%;
+  text-align: center;}
+element.style {
+  border: 2px solid;
+  padding: 0px 17px;
+  border: 2px silid;}
+  .discreption{
+    font-size: 11px;
+    color: #777;
+  }
+   #links{
+    color: rgb(181, 168, 194);
+  }
+
+}
+
+
+@media screen and (min-width: 1326px){
+  .main_Headign {
+    padding-left: 18%;
+}
+.birthdate select {
+  width: 8rem;
+}
+}
